@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (c) 2009 Itteco Software (http://itteco.com)
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+-->
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:gravity="bottom">
+
+    <AbsoluteLayout
+        android:orientation="horizontal"
+        android:layout_width="320px"
+        android:layout_height="40px"
+        android:layout_x="0px"
+        android:layout_y="0px"
+        android:background="@drawable/top_background"
+            >
+
+        <TextView
+            android:id="@+id/overallScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="20px"
+            android:layout_y="8px"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+
+        <TextView android:id="@+id/selectionScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="200px"
+            android:layout_y="8px"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </AbsoluteLayout>
+
+
+    <com.itteco.samegame.SameGameView
+            android:layout_width="320px"
+            android:layout_height="400px"
+            android:layout_x="0px"
+            android:layout_y="40px"
+            android:id="@+id/gameView"/>
+
+    <AbsoluteLayout
+        android:orientation="horizontal"
+        android:layout_width="320px"
+        android:layout_height="40px"
+        android:layout_x="0px"
+        android:layout_y="440px"
+        android:background="@drawable/bottom_background">
+
+        <Button android:id="@+id/newButton"
+                android:background="@drawable/new_game"
+                    android:layout_width="100px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="102"
+                    android:layout_x="3px"
+                    android:layout_y="4px"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    />
+
+            <Button android:id="@+id/undoButton"
+                    android:background="@drawable/undo"
+                    android:layout_width="102px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:layout_x="108px"
+                    android:layout_y="4px"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text=""/>
+      
+        <Button android:id="@+id/redoButton"
+                android:background="@drawable/redo"
+                    android:layout_width="102px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:layout_x="215px"
+                    android:layout_y="4px"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text=""/>
+    </AbsoluteLayout>
+</AbsoluteLayout>
