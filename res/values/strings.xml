@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (c) 2009 Itteco Software (http://itteco.com)
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Same Game</string>
+    <string name="overall_score">Score: <xliff:g id="number">%d</xliff:g></string>
+    <string name="selection_score_no_points">No points</string>
+    <string name="selection_score"><xliff:g id="number">%d</xliff:g> points</string>
+    <string name="game_over">Game over</string>
+
+    <string name="new_game">New game</string>
+    <string name="settings">Setting</string>
+    <string name="score">Score</string>
+    <string name="redo">Redo</string>
+    <string name="undo">Undo</string>
+    <string name="help">Help</string>
+    <string name="quit">Exit</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="description"></string>
+    <string name="settings_difficulty">Difficulty</string>
+    <string name="settings_difficulty_summary">Choose the number of ball colors to play with</string>
+    <string name="settings_difficulty1">Two colors</string>
+    <string name="settings_difficulty2">Three colors</string>
+    <string name="settings_difficulty3">Four colors</string>
+    <string name="settings_fast_animation">Fast animation</string>
+    <string name="settings_fast_animation_summary">Toggle fast animation</string>
+    <string name="new_score_add_your_name">Add Your Name</string>
+    <string name="show_off_globally">Show off globally</string>
+    <string name="return_to_game">Return to game</string>
+    <string name="return_to_game_score">Return to game score</string>
+    <string name="clear_score_log">Clear score log</string>
+</resources>
